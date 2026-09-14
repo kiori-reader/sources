@@ -30,9 +30,26 @@ corruzione, non la contraffazione.
 | Domini consentiti | `kiori-reader.github.io` |
 | ID chiave | `kiori-repository` |
 
+## Sorgenti pubblicate
+
+| Sorgente | Versione | Lingue | Tipo |
+|---|---|---|---|
+| MangaDex | 0.1.0 | en | dichiarativa, schema v4 |
+
+MangaDex espone un'API pubblica e documentata. Le sorgenti qui pubblicate si
+limitano a provider i cui termini permettono a un client di terze parti di
+leggerli; l'app non include alcun catalogo, e questo repository non è l'unico
+possibile — chiunque può pubblicarne uno e firmarlo con la propria chiave.
+
 ## Aggiungere una sorgente
 
-La chiave privata **non si trova in questo repository** e non deve mai
+Servono **due chiavi distinte**: quella del repository firma l'indice, quella
+dell'editore firma i pacchetti. L'indice fa da garante per la chiave pubblica
+dell'editore, ma non può falsificare la firma di un pacchetto — è questa
+separazione a fare in modo che chi ospita il catalogo non possa, da solo,
+alterare il contenuto di una sorgente.
+
+Nessuna chiave privata **si trova in questo repository** e non deve mai
 entrarci: `.gitignore` rifiuta `*.key`. Tienila fuori dal controllo di
 versione e conservala al sicuro — perderla significa non poter più aggiornare
 il repository, e le app dovranno autorizzare una chiave nuova.
