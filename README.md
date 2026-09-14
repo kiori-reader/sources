@@ -1,4 +1,4 @@
-# Odli3 Sources
+# Kiori Sources
 
 Repository di sorgenti firmate per Manga Reader.
 
