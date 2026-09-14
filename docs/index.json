@@ -1,10 +1,10 @@
 {
   "envelopeVersion" : 1,
-  "payload" : "ewogICJzY2hlbWFWZXJzaW9uIjogMiwKICAiZ2VuZXJhdGVkQXQiOiAiMjAyNi0wOS0xNFQwOToxMDowNloiLAogICJlbnRyaWVzIjogW10KfQo=",
-  "repositoryID" : "odli3.sources",
+  "payload" : "ewogICJzY2hlbWFWZXJzaW9uIjogMiwKICAiZ2VuZXJhdGVkQXQiOiAiMjAyNi0wOS0xNFQwOToyNjoyNVoiLAogICJlbnRyaWVzIjogW10KfQo=",
+  "repositoryID" : "kiori.sources",
   "signingIdentity" : {
     "algorithm" : "Ed25519",
-    "keyID" : "odli3-repository",
-    "signature" : "QI2/8xXRx2qIcHw6rKzheB+J3MmELn7flLGSQhFEn00to4ndFD3kPVJO1SreJv6G1JF01TfgrrjEfvxJ/QMCAg=="
+    "keyID" : "kiori-repository",
+    "signature" : "IJyKILynoRD6Wdtz4LjWvmOlndMnYn7hIpeJBdyEtG+rrU73+A4xDOKVOI/hzyEKvbKlXPnC+vDHBcm3qfKJAw=="
   }
 }
