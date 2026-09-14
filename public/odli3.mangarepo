@@ -1,12 +1,12 @@
 {
   "allowedDomains" : [
-    "kiori.github.io"
+    "odli3.github.io"
   ],
-  "indexURL" : "https://kiori.github.io/MangaReaderSources/index.json",
+  "indexURL" : "https://odli3.github.io/MangaReaderSources/index.json",
   "keyFingerprint" : "4eed2e231cc70c13d57fd47613ce524249e26b4d7540e27fcd9c9fcc43f81749",
-  "keyID" : "kiori-repository",
-  "operatorName" : "Kiori Sources",
+  "keyID" : "odli3-repository",
+  "operatorName" : "Odli3 Sources",
   "publicKey" : "GAwXlSitaJ19hn/lQWDvjFC5o1vXQ4/Ltw6daq8ia4A=",
-  "repositoryID" : "kiori.sources",
+  "repositoryID" : "odli3.sources",
   "schemaVersion" : 1
 }

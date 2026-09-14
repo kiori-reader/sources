@@ -1,4 +1,4 @@
-# Kiori Sources
+# Odli3 Sources
 
 Repository di sorgenti firmate per Manga Reader.
 
@@ -8,7 +8,7 @@ possono alterarne il contenuto senza invalidarla.
 
 ## Aggiungere il repository nell'app
 
-Scheda **Repository** → importa `public/kiori.mangarepo`, oppure apri il link
+Scheda **Repository** → importa `public/odli3.mangarepo`, oppure apri il link
 di importazione. In entrambi i casi l'app mostra identità e impronta e chiede
 una conferma esplicita: il file **non autorizza nulla da solo**.
 
@@ -25,10 +25,10 @@ corruzione, non la contraffazione.
 
 | | |
 |---|---|
-| Identità | `kiori.sources` |
-| Indice | `https://kiori.github.io/MangaReaderSources/index.json` |
-| Domini consentiti | `kiori.github.io` |
-| ID chiave | `kiori-repository` |
+| Identità | `odli3.sources` |
+| Indice | `https://odli3.github.io/MangaReaderSources/index.json` |
+| Domini consentiti | `odli3.github.io` |
+| ID chiave | `odli3-repository` |
 
 ## Aggiungere una sorgente
 
@@ -45,13 +45,13 @@ source-validator package-create manifest.json source.json publisher.key \
 # 2. aggiungi la voce all'indice e rifirma
 source-validator repository-update public/index.json \
     build/nuova-sorgente.mangasource PUBLISHER_PUBLIC_KEY_BASE64 \
-    https://kiori.github.io/MangaReaderSources/packages/nuova-sorgente.mangasource \
-    kiori.sources kiori-repository /percorso/della/chiave-privata.key \
+    https://odli3.github.io/MangaReaderSources/packages/nuova-sorgente.mangasource \
+    odli3.sources odli3-repository /percorso/della/chiave-privata.key \
     public/index.json
 
 # 3. verifica prima di pubblicare
-source-validator repository-verify public/index.json kiori.sources \
-    kiori-repository GAwXlSitaJ19hn/lQWDvjFC5o1vXQ4/Ltw6daq8ia4A=
+source-validator repository-verify public/index.json odli3.sources \
+    odli3-repository GAwXlSitaJ19hn/lQWDvjFC5o1vXQ4/Ltw6daq8ia4A=
 ```
 
 Il pacchetto va copiato in `public/packages/` e il push su `main` lo pubblica
@@ -61,7 +61,7 @@ tramite GitHub Pages.
 
 ```
 public/index.json        indice firmato (servito da Pages)
-public/kiori.mangarepo   descrittore di importazione
+public/odli3.mangarepo   descrittore di importazione
 public/packages/         pacchetti .mangasource
 index.source.json        indice non firmato, sorgente per la rigenerazione
 ```
