@@ -1,0 +1,7 @@
+# Le chiavi private non entrano mai in questo repository.
+# Il file dell'indice è firmato altrove e qui viaggia solo la parte pubblica.
+*.key
+*.pem
+*.p12
+private-*
+.DS_Store

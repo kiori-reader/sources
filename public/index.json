@@ -1,0 +1,10 @@
+{
+  "envelopeVersion" : 1,
+  "payload" : "ewogICJzY2hlbWFWZXJzaW9uIjogMiwKICAiZ2VuZXJhdGVkQXQiOiAiMjAyNi0wOS0xNFQwOTowMDo0OFoiLAogICJlbnRyaWVzIjogW10KfQo=",
+  "repositoryID" : "kiori.sources",
+  "signingIdentity" : {
+    "algorithm" : "Ed25519",
+    "keyID" : "kiori-repository",
+    "signature" : "EmuRyjVQzBhUMTtip4VgDyL1XTFFpOZQPUVrZODwfipXqVsZIA3wIybkGPlvU6MsKEi5PBYlQ1tvLAKjovpCCg=="
+  }
+}
