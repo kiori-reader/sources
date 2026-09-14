@@ -1,10 +1,10 @@
 {
   "envelopeVersion" : 1,
-  "payload" : "ewogICJzY2hlbWFWZXJzaW9uIjogMiwKICAiZ2VuZXJhdGVkQXQiOiAiMjAyNi0wOS0xNFQwOToyNjoyNVoiLAogICJlbnRyaWVzIjogW10KfQo=",
+  "payload" : "ewogICJzY2hlbWFWZXJzaW9uIjogMiwKICAiZ2VuZXJhdGVkQXQiOiAiMjAyNi0wOS0xNFQwOToyOToyNloiLAogICJlbnRyaWVzIjogW10KfQo=",
   "repositoryID" : "kiori.sources",
   "signingIdentity" : {
     "algorithm" : "Ed25519",
     "keyID" : "kiori-repository",
-    "signature" : "IJyKILynoRD6Wdtz4LjWvmOlndMnYn7hIpeJBdyEtG+rrU73+A4xDOKVOI/hzyEKvbKlXPnC+vDHBcm3qfKJAw=="
+    "signature" : "IM3FV3FHOXmhIbIp4WBODblzC49MYUhwlUPjgwC/JTS/Fa8AYI6PQUhM20llKcG3nInrU1FvkUoiXxjbJiI2DA=="
   }
 }

@@ -2,7 +2,7 @@
   "allowedDomains" : [
     "kiori-reader.github.io"
   ],
-  "indexURL" : "https://kiori-reader.github.io/MangaReaderSources/index.json",
+  "indexURL" : "https://kiori-reader.github.io/sources/index.json",
   "keyFingerprint" : "4eed2e231cc70c13d57fd47613ce524249e26b4d7540e27fcd9c9fcc43f81749",
   "keyID" : "kiori-repository",
   "operatorName" : "Kiori Sources",

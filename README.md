@@ -26,7 +26,7 @@ corruzione, non la contraffazione.
 | | |
 |---|---|
 | Identità | `kiori.sources` |
-| Indice | `https://kiori-reader.github.io/MangaReaderSources/index.json` |
+| Indice | `https://kiori-reader.github.io/sources/index.json` |
 | Domini consentiti | `kiori-reader.github.io` |
 | ID chiave | `kiori-repository` |
 
@@ -45,7 +45,7 @@ source-validator package-create manifest.json source.json publisher.key \
 # 2. aggiungi la voce all'indice e rifirma
 source-validator repository-update docs/index.json \
     build/nuova-sorgente.mangasource PUBLISHER_PUBLIC_KEY_BASE64 \
-    https://kiori-reader.github.io/MangaReaderSources/packages/nuova-sorgente.mangasource \
+    https://kiori-reader.github.io/sources/packages/nuova-sorgente.mangasource \
     kiori.sources kiori-repository /percorso/della/chiave-privata.key \
     docs/index.json
 
