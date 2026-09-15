@@ -34,7 +34,7 @@ corruzione, non la contraffazione.
 
 | Sorgente | Versione | Lingue | Tipo |
 |---|---|---|---|
-| MangaDex | 0.2.0 | en | dichiarativa, schema v4 |
+| MangaDex | 0.3.0 | en | dichiarativa, schema v4 |
 
 MangaDex espone un'API pubblica e documentata. Le sorgenti qui pubblicate si
 limitano a provider i cui termini permettono a un client di terze parti di
