@@ -32,9 +32,9 @@ corruzione, non la contraffazione.
 
 ## Sorgenti pubblicate
 
-| Sorgente | Versione | Lingue | Tipo |
-|---|---|---|---|
-| MangaDex | 0.4.0 | en | dichiarativa, schema v4 |
+| Sorgente | Versione | Lingue | Tipo | Richiede |
+|---|---|---|---|---|
+| MangaDex | 0.5.0 | en | dichiarativa, schema v4 | Kiori 0.2.0+ |
 
 MangaDex espone un'API pubblica e documentata. Le sorgenti qui pubblicate si
 limitano a provider i cui termini permettono a un client di terze parti di
