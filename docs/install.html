@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <title>Aggiungi Kiori Sources</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: Canvas; color: CanvasText; }
+    main { width: min(34rem, calc(100% - 3rem)); text-align: center; }
+    h1 { font-size: 2rem; margin: 0 0 .6rem; }
+    p { line-height: 1.5; color: color-mix(in srgb, CanvasText 68%, transparent); }
+    .button { display: inline-block; margin: 1.25rem 0; padding: .9rem 1.35rem; border-radius: .75rem; background: #ef7d32; color: white; font-weight: 700; text-decoration: none; }
+    code { display: block; overflow-wrap: anywhere; font-size: .75rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Kiori Sources</h1>
+    <p>Apri Kiori per verificare e aggiungere questa repository.</p>
+    <a class="button" id="install" href="kiyume://repository/enroll?payload=eyJhbGxvd2VkRG9tYWlucyI6WyJraW9yaS1yZWFkZXIuZ2l0aHViLmlvIl0sImluZGV4VVJMIjoiaHR0cHM6Ly9raW9yaS1yZWFkZXIuZ2l0aHViLmlvL3NvdXJjZXMvaW5kZXguanNvbiIsImtleUZpbmdlcnByaW50IjoiNGVlZDJlMjMxY2M3MGMxM2Q1N2ZkNDc2MTNjZTUyNDI0OWUyNmI0ZDc1NDBlMjdmY2Q5YzlmY2M0M2Y4MTc0OSIsImtleUlEIjoia2lvcmktcmVwb3NpdG9yeSIsIm9wZXJhdG9yTmFtZSI6Iktpb3JpIFNvdXJjZXMiLCJwdWJsaWNLZXkiOiJHQXdYbFNpdGFKMTlobi9sUVdEdmpGQzVvMXZYUTQvTHR3NmRhcThpYTRBPSIsInJlcG9zaXRvcnlJRCI6Imtpb3JpLnNvdXJjZXMiLCJzY2hlbWFWZXJzaW9uIjoxfQ">Aggiungi a Kiori</a>
+    <p>Prima di confermare, verifica che l'impronta mostrata dall'app inizi con:</p>
+    <code>4eed2e23 1cc70c13 d57fd476 13ce5242</code>
+  </main>
+  <script>
+    const installURL = document.getElementById("install").href;
+    window.setTimeout(() => { window.location.href = installURL; }, 120);
+  </script>
+</body>
+</html>
