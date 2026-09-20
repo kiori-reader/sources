@@ -8,6 +8,10 @@ possono alterarne il contenuto senza invalidarla.
 
 ## Aggiungere il repository nell'app
 
+[![Aggiungi a Kiori](https://img.shields.io/badge/Aggiungi%20a%20Kiori-EF7D32?style=for-the-badge&logo=apple&logoColor=white)](https://kiori-reader.github.io/sources/install.html)
+
+Da iPhone o iPad, premi **Aggiungi a Kiori**: Safari aprirà l'app e mostrerà la schermata di verifica prima dell'installazione. Nessuna repository viene autorizzata senza la tua conferma.
+
 Scheda **Repository** → importa `docs/kiori.mangarepo`, oppure apri il link
 di importazione. In entrambi i casi l'app mostra identità e impronta e chiede
 una conferma esplicita: il file **non autorizza nulla da solo**.
