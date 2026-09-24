@@ -38,11 +38,7 @@ corruzione, non la contraffazione.
 
 | Sorgente | Versione | Lingue | Tipo | Richiede |
 |---|---|---|---|---|
-| MangaDex | 0.5.0 | en | dichiarativa, schema v4 | Kiori 0.2.0+ |
-| MangaDex (Italiano) | 0.1.0 | it | dichiarativa, schema v4 | Kiori 0.2.0+ |
-| MangaDex (Español) | 0.1.0 | es | dichiarativa, schema v4 | Kiori 0.2.0+ |
-| MangaDex (Français) | 0.1.0 | fr | dichiarativa, schema v4 | Kiori 0.2.0+ |
-| MangaDex (Português BR) | 0.1.0 | pt-br | dichiarativa, schema v4 | Kiori 0.2.0+ |
+| MangaDex | 0.1.0 | en, it, es, fr, pt-br | dichiarativa, schema v6 | Kiyume 0.4.0+ |
 | Weeb Central | 0.1.0 | en | dichiarativa, schema v5 | Kiori 0.3.0+ |
 | MangaPill | 0.1.0 | en | dichiarativa, schema v5 | Kiori 0.3.0+ |
 | ManhuaHot | 0.1.0 | en | dichiarativa Madara, schema v4 | Kiori 0.3.0+ |
