@@ -45,6 +45,9 @@ corruzione, non la contraffazione.
 | MangaDex (Português BR) | 0.1.0 | pt-br | dichiarativa, schema v4 | Kiori 0.2.0+ |
 | Weeb Central | 0.1.0 | en | dichiarativa, schema v5 | Kiori 0.3.0+ |
 | MangaPill | 0.1.0 | en | dichiarativa, schema v5 | Kiori 0.3.0+ |
+| ManhuaHot | 0.1.0 | en | dichiarativa Madara, schema v4 | Kiori 0.3.0+ |
+| Tortuga Çeviri | 0.1.0 | tr | dichiarativa Madara, schema v4 | Kiori 0.3.0+ |
+| LinkManga (18+) | 0.1.0 | en | dichiarativa Madara, schema v4 | Kiori 0.3.0+ |
 
 MangaDex espone un'API pubblica e documentata. Le sorgenti qui pubblicate si
 limitano a provider i cui termini permettono a un client di terze parti di
